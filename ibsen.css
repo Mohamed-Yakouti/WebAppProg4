@@ -1,0 +1,44 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Speech styling */
+.speech {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: black;
+}
+
+/* Direction styling */
+.direction {
+  background-color: #f0f0f0;
+  font-style: italic;
+  padding: 5px;
+}
+
+.direction:hover {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+/* Character Specific Classes */
+.nora {
+  color: #d9534f;
+}
+
+.porter {
+  color: #2e6da4;
+}
+
+.helmer {
+  color: #3c763d;
+}
+
+
+h3:hover, h4:hover {
+  text-shadow: 2px 2px 5px #888888;
+  border: 1px dashed #333;
+  padding: 2px;
+}
