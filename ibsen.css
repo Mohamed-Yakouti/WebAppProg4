@@ -66,3 +66,10 @@ th {
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+/* Part 9: Hover shadow and border effect for character names */
+h4.name:hover {
+    text-shadow: 3px 3px 6px #888888;
+    border: 2px dashed #2e6da4;
+    padding: 4px;
+    display: inline-block;
+}
